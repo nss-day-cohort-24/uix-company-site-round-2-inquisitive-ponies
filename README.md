@@ -1,6 +1,6 @@
 ============= STORM CROWS original work=============
 Persona: 
-Middle school kids & parents
+Middle school kids and parents
 
 Challenge Statement:
 Charlie Brown’s lack of confidence and personal agency keeps him from standing up for himself against bullying and from realizing his victories.
