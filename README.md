@@ -4,8 +4,12 @@ Middle school kids & parents
 
 Challenge Statement:
 Charlie Brown’s lack of confidence and personal agency keeps him from standing up for himself against bullying and from realizing his victories.
-ultimate impact: realize personal victories against bullies
-variety of solutions:  need a little more here great statement on the challenge, but a little more on how you are going to focus fixing it (THIS is a great example of how “Solution” is not the best word for this!!!) … maybe something like “How might we provide self-directed football training (or self-confident building lessons) to children like Charlie Brown to build up their confidence and personal agency to help him to stand up for himself against bullying and to realize his victories.
+
+Ultimate impact: 
+realize personal victories against bullies
+
+variety of solutions:  
+Need a little more here great statement on the challenge, but a little more on how you are going to focus fixing it (THIS is a great example of how “Solution” is not the best word for this!!!) … maybe something like “How might we provide self-directed football training (or self-confident building lessons) to children like Charlie Brown to build up their confidence and personal agency to help him to stand up for himself against bullying and to realize his victories.
 
 Constraints & Context:
 designing for children
