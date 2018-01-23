@@ -1,6 +1,28 @@
 
 body {
+    background: white;
+}
 
+h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+h3 {
+    letter-spacing: 0.5em;
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+img {
+    border-radius: 10px;
 }
 
 .description {
@@ -8,34 +30,54 @@ body {
 }
 
 .flex-item1 {
+    border-bottom: 10px solid #f7ce06;
+    background: #79CCC9;
+    border-radius: 5px;
+    margin-bottom: 0;
 }
 
 .flex-item2 {
-    padding: 10px;
+    text-align: center;
     font-size: 1.5em;
-    width: 100%;
+    width: 50%;
+    background: #79CCC9;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .flex-item3 {
     text-align: center;
+    border-bottom: 10px solid #f7ce06;
+    background: #79CCC9;
 }
 
 .flex-item4 {
     font-size: 1.5em;
-    padding: 10px;
-    text-align: left;
+    width: 50%;
+    background: #F3B1B2;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #center {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 30px;
     margin-bottom: 15%;
+    border: 20px outset black;
 }
 
 #product1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product2 {
@@ -43,12 +85,16 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product4 {
@@ -56,12 +102,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product5 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product6 {
@@ -69,12 +119,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product7 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 
 #product8 {
@@ -82,4 +136,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
 }
