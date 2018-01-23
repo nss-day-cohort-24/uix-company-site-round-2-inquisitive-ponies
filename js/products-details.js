@@ -9,43 +9,38 @@ var products8 = document.getElementById('product8');
 
 var counter = 0;
 
-var productDetail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex." 
-                    "Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus"
-                    "ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius" 
-                    "eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum."
-
 
 var products = [
     {
-    image:'<div class="flex-item1"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
+    image:'<div class="flex-item1"><img src="../images/art.jpeg"></div>',
+    description:'<div class="flex-item2"><h3>ART!</h3> Our talented and friendly staff encourage students to explore what they are best at. While gently guiding their process, and providing resources for further exploration.</div>',
+    },
+    {
+    image:'<div class="flex-item3"><img src="../images/canoe.jpg"></div>',
+    description:'<div class="flex-item4"><h3>WATER!</h3>Our talented and friendly staff encourage students to explore what they are best at. While gently guiding their process, and providing resources for further exploration.</div>',
+    },
+    {
+    image:'<div class="flex-item1"><img src="../images/dance.jpg"></div>',
     description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
     },
     {
-    image:'<div class="flex-item3"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
+    image:'<div class="flex-item3"><img src="../images/fun.jpg"></div>',
     description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
     },
     {
-    image:'<div class="flex-item1"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
+    image:'<div class="flex-item1"><img src="../images/kickball.jpg"></div>',
     description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
     },
     {
-    image:'<div class="flex-item3"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
+    image:'<div class="flex-item3"><img src="../images/ropes.jpg"></div>',
     description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
     },
     {
-    image:'<div class="flex-item1"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
+    image:'<div class="flex-item1"><img src="../images/stem.jpg"></div>',
     description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
     },
     {
-    image:'<div class="flex-item3"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
-    description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
-    },
-    {
-    image:'<div class="flex-item1"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
-    description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
-    },
-    {
-    image:'<div class="flex-item3"><img src="http://moziru.com/images/square-clipart-red-color-3.png"></div>',
+    image:'<div class="flex-item3"><img src="../images/wood.jpeg"></div>',
     description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
     },
 ]
