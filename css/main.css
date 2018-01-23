@@ -8,7 +8,7 @@ footer{
 /* ============= HEADER STYLES ============ */
 header {
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .banner{
@@ -27,14 +27,15 @@ nav {
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-items: center;
-    height: 55px;
+    /* height: 55px; */
 }
 
-nav li {
+nav li{
     display: inline-flex;
     list-style-image: none;
-    /* padding: .85em; */
-    /* border: 1px solid red; */
+    align-items: stretch;
+    padding: 1em;
+    border: 1px solid red;
 }
 
 nav li,
@@ -43,8 +44,6 @@ nav li,
 .item4, 
 .item5{
     flex: 1 auto 10%;
-    padding: 1em;
-    /* align-items: center; */
 }
 
 nav li.item1{
@@ -52,34 +51,30 @@ nav li.item1{
 }
 nav li.item5{
     flex-grow: 4;
-    /* align-items: center; */
 }
 
 nav li.item6{
     flex-basis: 5%;
-    /* align-self: flex-end;
-    padding-right: 0; */
-    /* padding-left: 10em; */
 }
 
 nav img.nav-cart{
-    margin: auto;
-    max-width: 100%;
+    /* margin: auto; */
+    max-width: 1000%;
     max-height: 40px;
 }
 
 nav img.nav-logo{
     max-width: 100%;
     max-height: 100%;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 5px;
 }
 
 nav>li>a:hover{
     background: #f4f4f4;
     text-decoration: none;
-    padding: 0.85em;
     border-bottom: 4px solid #9b9b9b;
+    padding: .5em 0px;
 }
 
 /* ============= FOOTER STYLES ============ */
@@ -98,36 +93,4 @@ footer a {
 .footer-social{
     font-size: 2em;
     margin-left: auto;
-}
-
-/* ============= ABOUT ============ */
-/* ============= LANDING ============ */
-#aboutLanding {
-    height: calc(100vh - 60px);
-    width: 100%;
-    margin: auto;
-    background: url('');
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-}
-
-#mission {
-    margin: 1em 25em;
-}
-
-/* ============= CONTENT ============ */
-.flex-badge {
-    list-style-type: none;
-}
-
-#aboutDiv {
-    display: inline-flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-left: 0 auto;
 }
