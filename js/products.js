@@ -6,42 +6,42 @@ var products2 = document.getElementById('products2');
 
 var products = [
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price'
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },
     {
-    image:'<img src="http://moziru.com/images/square-clipart-red-color-3.png"',
+    image:'<img src="product-test.png">',
     description:'<h3>DESCRIPTION</h3>',
     price: 'price',
     },

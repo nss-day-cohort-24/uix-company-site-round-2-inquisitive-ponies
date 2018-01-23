@@ -8,90 +8,78 @@ body {
 }
 
 .flex-item1 {
-    background: purple;
 }
 
 .flex-item2 {
-    background: green;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 100%;
 }
 
 .flex-item3 {
     text-align: center;
-    background: orange;
 }
 
 .flex-item4 {
-    background: lightblue;
-
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: left;
 }
 
 #center {
-    width: 75%;
-    margin-left: 15%;
+    width: 100%;
     margin-top: 15%;
     margin-bottom: 15%;
 }
 
 #product1 {
     display: flex;
-    flex-flow: row wrap;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 #product2 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    color: white;
-    background: black;
 }
 
 #product3 {
     display: flex;
-    flex-flow: row wrap;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 #product4 {
     text-align: center;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 #product5 {
     display: flex;
-    flex-flow: row wrap;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 #product6 {
     text-align: center;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 #product7 {
     display: flex;
-    flex-flow: row wrap;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 #product8 {
     text-align: center;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    color: white;
-    background: black;
+    justify-content: center;
+    align-items: center;
 }
