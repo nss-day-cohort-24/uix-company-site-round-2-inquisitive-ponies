@@ -35,7 +35,7 @@ nav li{
     list-style-image: none;
     align-items: stretch;
     padding: 1em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 nav li,
