@@ -1,0 +1,97 @@
+
+body {
+
+}
+
+.description {
+    /* padding-top: 5%; */
+}
+
+.flex-item1 {
+    background: purple;
+}
+
+.flex-item2 {
+    background: green;
+}
+
+.flex-item3 {
+    text-align: center;
+    background: orange;
+}
+
+.flex-item4 {
+    background: lightblue;
+
+}
+
+#center {
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#product1 {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    background: black;
+}
+
+#product2 {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white;
+    background: black;
+}
+
+#product3 {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    background: black;
+}
+
+#product4 {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white;
+    background: black;
+}
+
+#product5 {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    background: black;
+}
+
+#product6 {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white;
+    background: black;
+}
+
+#product7 {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    background: black;
+}
+
+#product8 {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white;
+    background: black;
+}
