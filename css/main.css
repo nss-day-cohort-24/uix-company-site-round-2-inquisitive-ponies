@@ -1,3 +1,29 @@
+/* ============= MAIN BODY STYLES ============ */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #8D8984;
+}
 
 /* ============= FLEX CONTAINERS ============ */
 nav,
@@ -88,7 +114,11 @@ footer{
     background-color: #8D8984;
     padding: 2em;
     margin-top: 10px;
-    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 footer a {
