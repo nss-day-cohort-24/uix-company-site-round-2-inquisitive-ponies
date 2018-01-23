@@ -9,6 +9,7 @@ footer{
 header {
     justify-content: space-between;
     align-items: center;
+    height: 60px;
 }
 
 .banner{
@@ -106,7 +107,7 @@ footer a {
     height: calc(100vh - 60px);
     width: 100%;
     margin: auto;
-    background: url('');
+    background: url('../images/camp2.png');
     display: flex;
     background-size: cover;
     background-position: center;
@@ -116,18 +117,33 @@ footer a {
     top: 0;
 }
 
+#aboutLanding h1 {
+
+}
+
 #mission {
     margin: 1em 25em;
 }
 
+
 /* ============= CONTENT ============ */
-.flex-badge {
+.flex-badge, .flex-info{
     list-style-type: none;
 }
 
-#aboutDiv {
+#badgesDiv img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#badgesDiv, #infoDiv {
     display: inline-flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-left: 0 auto;
 }
+
+#infoDiv img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
