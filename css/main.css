@@ -1,0 +1,53 @@
+
+/* ============= FLEX CONTAINERS ============ */
+nav,
+footer{
+    display: flex;
+}
+
+/* ============= HEADER STYLES ============ */
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    background-image: url(/images/homepage-banner.png); 
+    background-repeat: no-repeat;
+    background-color: #000000;
+    padding: 5px; 100px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/*  ============== NAVIGATION ================ */
+nav {
+    align-content: space-around;
+    font-size: .9em;
+    align-items: center;
+    padding-right: 5em;
+}
+
+nav li {
+    display: inline;
+    padding: .85em;
+}
+
+/* ============= FOOTER STYLES ============ */
+footer{
+    background-color: #8D8984;
+    padding: 2em;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+footer a {
+    color: #fff;
+    padding: 3px;
+}
+
+.footer-social{
+    font-size: 2em;
+    margin-left: auto;
+}
