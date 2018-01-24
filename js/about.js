@@ -1,5 +1,5 @@
 // Mission Statement
-document.getElementById("mission").innerHTML = "<strong>You Got This! </strong>is all about helping your children over come evryday challenges and obsticals by encouraging them to take on challanges and learn from their mistakes.</p>";
+document.getElementById("mission").innerHTML = "<strong>You Got This! </strong>is all about offering your pre-highschool kids opportunities for social interaction and character education in a nurturing environment with engaging and fun activities while minimizing negative peer interations.</p>";
 
 // Team Info //
 
