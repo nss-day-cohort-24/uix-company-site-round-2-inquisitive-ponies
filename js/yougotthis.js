@@ -1,11 +1,11 @@
 var heroImage = document.getElementById('heroImage'); 
-// var heroImage1 = document.getElementById('heroImage1');
-// var heroImage2 = document.getElementById('heroImage2'); 
 
 var heroes = [ 
     `<img src="../images/Band.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
     `<img src="../images/hero_stem.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
-    `<img src="../images/Archery.jpg" style="display: flex; margin: auto; max-width: 100%;">`
+    `<img src="../images/Archery.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
+    `<img src="../images/hero_outdoors.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
+    `<img src="../images/hero_ropes.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
     ]
 
 var random = Math.floor(Math.random() * Math.floor(heroes.length));
@@ -21,6 +21,12 @@ switch(random){
         break;
     case 2:
         heroImage.innerHTML = heroes[2];
+        break;
+    case 3:
+        heroImage.innerHTML = heroes [3];
+        break;
+    case 4:     
+        heroImage.innerHTML= heroes [4];
         break;
 }
 
