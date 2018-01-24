@@ -26,12 +26,12 @@ h6 {
 }
 
 .home-h3{
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2em;
     font-weight: 600;
-    color: #000000;
+    color: #8d8994;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-bottom: 0;
 }
 
