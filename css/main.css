@@ -277,12 +277,6 @@ footer a:hover{
     margin-left: 5em;
 }
 
-#badgesDiv h3 {
-    font-size: 25px;
-    width: 100%;
-
-}
-
 #badgesDiv {
     display: inline-flex;
     justify-content: flex-start; 
@@ -290,7 +284,6 @@ footer a:hover{
     width: 100%;
     margin-top: 39em;
     background-color: white;
-    color: #4B8584
 }
 
 /* ============= CONTACT ============ */
