@@ -1,11 +1,11 @@
 var heroImage = document.getElementById('heroImage'); 
 
 var heroes = [ 
-    `<img src="../images/Band.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
-    `<img src="../images/hero_stem.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
-    `<img src="../images/Archery.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
-    `<img src="../images/hero_outdoors.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
-    `<img src="../images/hero_ropes.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
+    `<img src="../images/Band.jpg" style="display: flex; margin: auto;">`,
+    `<img src="../images/hero_stem.jpg" style="display: flex; margin: auto; ">`,
+    `<img src="../images/Archery.jpg" style="display: flex; margin: auto;">`,
+    `<img src="../images/hero_outdoors.jpg" style="display: flex; margin: auto;">`,
+    `<img src="../images/hero_ropes.jpg" style="display: flex; margin: auto;">`,
     ]
 
 var random = Math.floor(Math.random() * Math.floor(heroes.length));
