@@ -13,35 +13,35 @@ var counter = 0;
 var products = [
     {
     image:'<div class="flex-item1"><img src="../images/art.jpeg"></div>',
-    description:'<div class="flex-item2"><h3>ART!</h3> Our talented and friendly staff encourage students to explore what they are best at. While gently guiding their process, and providing resources for further exploration.</div>',
+    description:'<div class="flex-item2"><h3>Art!</h3>At YGT! we encourage exploring your own creative identity. Our friendly and talented staff is there to gently guide the creative process, and our facilities can handle everything from traditional mediums like painting and drawing, to new mediums like digital audio and video.</div>',
     },
     {
     image:'<div class="flex-item3"><img src="../images/canoe.jpg"></div>',
-    description:'<div class="flex-item4"><h3>WATER!</h3>Our talented and friendly staff encourage students to explore what they are best at. While gently guiding their process, and providing resources for further exploration.</div>',
+    description:'<div class="flex-item4"><h3>Water!</h3>Outdoor water activities like canoeing and kayaking are available, as well as a traditonal olympic pool for swimming and diving. Lifeguards and and supervisors are on site for these exercises to ensure that everyone is having fun, but also staying safe.</div>',
     },
     {
     image:'<div class="flex-item1"><img src="../images/dance.jpg"></div>',
-    description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
+    description:'<div class="flex-item2"><h3>Dance!</h3>Dancing is a great way to exercise but also have a blast. Diversity plays a big part in our dance program as well. Styles from all over the world are represented and we encourage particpants to discover new ones.</div>',
     },
     {
     image:'<div class="flex-item3"><img src="../images/fun.jpg"></div>',
-    description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
+    description:'<div class="flex-item4"><h3>Meet!</h3>One of our newer, and most exciting programs, Meet! is an exercise in socialisation. In this program, participants are paired with a peer they dont know and engage in a series of "getting to know" you activites to stimulate a well rounded social enviornment</div>',
     },
     {
     image:'<div class="flex-item1"><img src="../images/kickball.jpg"></div>',
-    description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
+    description:'<div class="flex-item2"><h3>Sports!</h3>Team sports like baseball, basketball, and soccer as well as one-on-one sports like tennis and racquet ball are offered. Our high quality facilites guarantee a safe and enjoyable experience for all. </div>',
     },
     {
     image:'<div class="flex-item3"><img src="../images/ropes.jpg"></div>',
-    description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
+    description:'<div class="flex-item4"><h3>Outdoors!</h3>Rope climbing, zipline, hiking include some of the physical options for our Outdoors! program. We also offer nature appreciation oriented activites including plant identificaton and foraging.</div>',
     },
     {
     image:'<div class="flex-item1"><img src="../images/stem.jpg"></div>',
-    description:'<div class="flex-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
+    description:'<div class="flex-item2"><h3>Science!</h3>Science is a great way to understand the world around us. Our science programs are the most educational of all the programs and are led by professionals in the field with alot of experience and passion to share. </div>',
     },
     {
     image:'<div class="flex-item3"><img src="../images/wood.jpeg"></div>',
-    description:'<div class="flex-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et pretium orci, id pretium ex. Proin egestas massa mauris, ac semper mauris bibendum vel. Nunc varius tristique diam, at rhoncus ex tincidunt nec. Aliquam erat volutpat. Aliquam vulputate quis leo id pulvinar. Curabitur varius eget ex id venenatis. Proin condimentum consectetur neque fringilla interdum.</div>',
+    description:'<div class="flex-item4"><h3>Make!</h3>Maker culture is a burgeoning movement, and now the tools to create almost anything exist. Guided workshops in everything from wood-working to electronics are offered, and participants leave with something they have created with their own hands and can take ownership of.</div>',
     },
 ]
 

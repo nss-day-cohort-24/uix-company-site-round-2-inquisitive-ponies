@@ -1,17 +1,54 @@
-h1 {
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 5%;
-    font-family: 'Montserrat', sans-serif;
+
+* {
+    margin: 0;
 }
 
-h3 {
-    font-size: 1.5em;
+a {
+    text-decoration: none;
+}
+
+
+body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
 }
 
 br {
     padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+h3 {
+    margin-top: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #8D8984;
+}
+
+h4 {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+}
+
+img {
+border-radius: 41px 9px 55px 9px;
+border: 10px solid #79CCC9;
+box-shadow: -7px -1px 21px -9px rgba(0,0,0,0.96);
+
 }
 
 li {
@@ -31,6 +68,7 @@ nav {
 
 #center {
     justify-content: center;
+    margin-bottom: 0;
 }
 
 #products1 {
@@ -43,4 +81,5 @@ nav {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    margin-bottom: 0;
 }
