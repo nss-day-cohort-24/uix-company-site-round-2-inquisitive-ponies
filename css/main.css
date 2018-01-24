@@ -388,12 +388,13 @@ footer a:hover{
 
 #formDiv {
     margin: auto;
+
 }
 #contactForm {
     display: flex;
     flex-flow: column;
     margin-bottom: 15em;
-    margin-top: 5%;
+    margin-top: 2%;
     color: #4B8584;
     background-color: rgba(255, 255, 255, .7);
     padding: 2em;
@@ -417,4 +418,11 @@ footer a:hover{
 
 #submitIcon {
     width:100%;
+}
+.contact-banner{
+    background-color: #10B9D2;
+    padding: .8em;
+    text-align: center;
+    color: white;
+
 }
