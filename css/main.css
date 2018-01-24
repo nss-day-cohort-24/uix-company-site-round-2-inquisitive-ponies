@@ -2,6 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    line-height: 1.5em;
     font-weight: 400;
     color: #8D8984;
 }
@@ -14,7 +15,6 @@ h1 {
 }
 
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -23,6 +23,27 @@ h6 {
     font-weight: 400;
     font-style: italic;
     color: #8D8984;
+}
+
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #10B9D2
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 /* ============= FLEX CONTAINERS ============ */
@@ -125,10 +146,37 @@ nav li.textLinks a:hover{
     display: flex;
 }
 
+.card{
+    position: absolute;
+    top: 165px;
+    left: 50px;
+    width: 350px;
+    height: 280px;
+    border-radius: 3px;
+    background-color: #10B9D2;
+    color: white;
+}
+
+.values{
+    padding: 1em 2em;
+    margin: 10px;
+}
+
+.pillars{
+    font-family: 'Libre Baskerville', Georgia; serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    color: #BBC946;
+    line-height: 1.8em;
+    text-align: center;
+}
+
 
 /* ============= FOOTER STYLES ============ */
 footer{
     background-color: #8D8984;
+    border-top: #10B9D2 solid 10px;
     padding: 2em;
     margin-top: 10px;
     font-family: 'Oswald', sans-serif;
