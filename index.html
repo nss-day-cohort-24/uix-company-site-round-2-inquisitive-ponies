@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>You Got This - Building Confidence in Middle School Students</title>
+    <title>You Got This - Character Education and Confidence Building for Students</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
@@ -12,48 +12,56 @@
 <body>
     <header>
         <nav>
-            <li class="item1 textLinks"><a href="index.html"><img class="nav-logo" src="images/YGT_web-wordmark.png" alt="You Got This! logo is text in bright blue, yellow, pink"></a><!--company logo--></li>
-            <li class="item2 textLinks"><a href="products.html">Programs</a></li>
-            <li class="item3 textLinks"><a href="#">Blog</a></li>
-            <li class="item4 textLinks"><a href="about.html">About</a></li>
-            <li class="item5 textLinks"><a href="contact.html">Contact Us</a></li>
-            <li class="item6 textLinks"><a href="cart.html"><img alt="white shopping cart image in a blue circle" class="nav-cart" src="images/cart-icon.png"><!--shopping cart glyph--></a></li>
+            <ul>
+                <li class="item1"><a href="index.html"><img class="nav-logo" src="images/YGT_web-wordmark.png" alt="You Got This! logo is text in bright blue, yellow, pink"></a><!--company logo--></li>
+                <li class="item2 textLinks"><a class="programs" href="products.html">Programs</a></li>
+                <li class="item4 textLinks"><a class="about" href="about.html">About</a></li>
+                <li class="item3 textLinks"><a href="#">Blog</a></li>
+                <li class="item5 textLinks"><a href="contact.html">Contact Us</a></li>
+                <li class="item6"><a href="cart.html"><img alt="white shopping cart image in a blue circle" class="nav-cart" src="images/cart-icon.png"><!--shopping cart glyph--></a></li>
+            </ul>
         </nav>
 
         <div class="banner">
-            <h1>Helping middle school students discover new talents and confidence.</h1>
+            <h1 class="home-h1">Helping students discover new talents and build confidence.</h1>
         </div>
     </header>
 
     <main>
-        <section><!-- HERO image & card called by javascript-->
-            <div id="heroImage0"></div>
-            <div id="heroImage1"></div>
-            <div id="heroImage2"></div>
-            <div class="hero-card"></div>
+        <section> <!--HERO image & card called by javascript-->
+            <div id="hero">
+                <div id="heroImage"></div> 
+                <div class="hero-card"></div> 
+        </div>
         </section>
 
 
         <section><!-- VALUES/ICONS SECTION -->
-            You Got This! is all about equipping your middle school student to take on challenges in their everyday lives. Our programs are designed to build confidence, introduce new hobbies and skills, and cultivate friendships. As your child explores their favorite extracurricular activities, they will be guided in exercises to improve social skills. When children believe in their ability to accomplish tasks, they are empowered to take on challenges in school and in life. Our focus in every program is cultivating these self-esteem skills:
-            Self-Appreciation  //  Kindness  //  Courage  //  Problem-Solving  //  Community Support
+            <div style="clear: both;">
+                <p>You Got This! is all about equipping your middle school student to take on challenges in their everyday lives. Our programs are designed to build confidence, introduce new hobbies and skills, and cultivate friendships. As your child explores their favorite extracurricular activities, they will be guided in exercises to improve social skills. When children believe in their ability to accomplish tasks, they are empowered to take on challenges in school and in life. Our focus in every program is cultivating these self-esteem skills:
+            Self-Appreciation  //  Kindness  //  Courage  //  Problem-Solving  //  Community Support</p>
+        </div>
         </section>
     </main> 
     
     <footer>
-        <div>
-        <a href="about.html">About Us</a><br />
-        <a href="programs.html">Programs</a><br />
-        <a href="contact.html">Contact Us</a><br />
-        <p>&copy; Inquisitive Ponies — a subsidiary of OpenIdeo</p>
-
-        </div>
-
         <div class="footer-social">
             <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
+        </div>
+
+        <div>
+        <a href="programs.html">Programs</a><br />
+        <a href="about.html">About Us</a><br />
+        <a href="contact.html">Contact Us</a><br />
+        </div>
+
+        <div class="copyright">
+        <p>&copy; Inquisitive Ponies — a subsidiary of OpenIdeo</p>
+        </div>
+
+        
     </footer>
 
     <script src="js/yougotthis.js"></script>
