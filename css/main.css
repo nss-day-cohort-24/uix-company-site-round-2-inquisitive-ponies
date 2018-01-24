@@ -46,6 +46,45 @@ a:hover{
     font-weight: bold;
 }
 
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    color: #10B9D2;
+    font-size: 20px;
+    background: #fff;
+    padding: 10px 40px 10px 40px;
+    border: solid #10B9D2 2px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+background: #10B9D2;
+color: #ffffff;
+text-decoration: none;
+}
+
+.btnPrograms {
+-webkit-border-radius: 3;
+-moz-border-radius: 3;
+border-radius: 3px;
+font-family: 'Montserrat', 'Helvetica', sans-serif;
+color: #f09139;
+font-size: 20px;
+background: #fff;
+padding: 10px 40px 10px 40px;
+border: solid #f09139 2px;
+text-decoration: none;
+}
+
+.btnPrograms:hover {
+background: #f09139;
+color: #ffffff;
+text-decoration: none;
+}
+
+
 /* ============= FLEX CONTAINERS ============ */
 nav{
     display: flex;
@@ -184,14 +223,34 @@ nav li.textLinks a:hover{
 }
 
 .row{
-    padding: 10px 1em;
+    padding: 1em;
     margin: 0px;
+    position: relative;
+
 }
+
+.blog-preview,
+.blog-teaser{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.blog-teaser{
+    z-index: 10;
+    padding: 10em;
+}
+
 
 .row img{
     max-width: 45%;
     margin: 1em;
+}
 
+.learn{
+    margin-top: 35px;
+    text-align: center;
 }
 
 
