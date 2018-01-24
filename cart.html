@@ -12,12 +12,14 @@
     <body>
         <header>
             <nav>
-                <li class="item1 textLinks"><a href="index.html"><img class="nav-logo" src="images/YGT_web-wordmark.png" alt="You Got This! logo is text in bright blue, yellow, pink"></a><!--company logo--></li>
-                <li class="item2 textLinks"><a href="products.html">Programs</a></li>
-                <li class="item3 textLinks"><a href="#">Blog</a></li>
-                <li class="item4 textLinks"><a href="about.html">About</a></li>
-                <li class="item5 textLinks"><a href="contact.html">Contact Us</a></li>
-                <li class="item6 textLinks"><a href="cart.html"><img alt="white shopping cart image in a blue circle" class="nav-cart" src="images/cart-icon.png"><!--shopping cart glyph--></a></li>
+                <ul>
+                    <li class="item1"><a href="index.html"><img class="nav-logo" src="images/YGT_web-wordmark.png" alt="You Got This! logo is text in bright blue, yellow, pink"></a><!--company logo--></li>
+                    <li class="item2 textLinks"><a class="programs" href="products.html">Programs</a></li>
+                    <li class="item4 textLinks"><a class="about" href="about.html">About</a></li>
+                    <li class="item3 textLinks"><a href="#">Blog</a></li>
+                    <li class="item5 textLinks"><a href="contact.html">Contact Us</a></li>
+                    <li class="item6"><a href="cart.html"><img alt="white shopping cart image in a blue circle" class="nav-cart" src="images/cart-icon.png"><!--shopping cart glyph--></a></li>
+                </ul>
             </nav>
         
             <div class="banner">
@@ -26,26 +28,60 @@
         </header>
 
         <main>
-            <section>
-                <h2>Look what you're getting!</h2>
-            </section>
+
+            <div class="cart">
+                <h2 class="title">Choose the program that's right for you.</h2>
+
+                <!-- Product 1 -->
+                <div class="item">
+                    <div class="buttons">
+                        <span class="delete-btn"></span>
+                    </div>
+
+                    <div class="image"> <!-- Product Image -->
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="description">
+                        <span></span>
+                    </div>
+
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="images/plus_button.png" alt="add item button">
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="images/minus-button.png" alt="subtract item button">
+                        </button>
+                      </div>
+                   
+                      <div class="total-price">$0</div>
+                </div> <!-- End Product 1 -->
+            </div> <!-- End Shopping Cart Div -->
+
         </main>
 
         <footer>
-            <div>
-                <a href="about.html">About Us</a><br />
-                <a href="programs.html">Programs</a><br />
-                <a href="contact.html">Contact Us</a><br />
-                <p>&copy; Inquisitive Ponies — a subsidiary of OpenIdeo</p>
-            </div>
-    
+
             <div class="footer-social">
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
+    
+            <div>
+            <a href="programs.html">Programs</a><br />
+            <a href="about.html">About Us</a><br />
+            <a href="contact.html">Contact Us</a><br />
+            </div>
+    
+            <div class="copyright">
+            <p>&copy; Inquisitive Ponies — a subsidiary of OpenIdeo</p>
+            </div>
+    
         </footer>
-
-        <!-- <script src="main.js"></script> -->
+        <script src="js/fontawesome.js"></script>
+        <!-- <script src="cart.js"></script> -->
     </body>
 </html>
