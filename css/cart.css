@@ -1,0 +1,138 @@
+/* ============= FONTS ============ */
+
+/*FOR LINKING IN HEAD OF HTML
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Montserrat:300,400,500|Oswald" rel="stylesheet"> */
+
+/* font-family: 'Montserrat', sans-serif; =====USE FOR BODY FONT (400 WEIGHT) AND H1 (300 WEIGHT)
+font-family: 'Oswald', sans-serif; ============USE FOR H2-6, QUOTES, ETC, (400 WEIGHT) ITALIC
+font-family: 'Libre Baskerville', serif; ======USE FOR FOOTER IN ALL CAPS (500 WEIGHT) */
+
+
+/* ============= MAIN BODY STYLES ============ */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #8D8984;
+}
+
+/* ============= FLEX CONTAINERS ============ */
+nav,
+footer{
+    display: flex;
+}
+
+/* ============= HEADER STYLES ============ */
+header {
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px; */
+}
+
+.banner{
+    background-image: url(/images/homepage-banner.png); 
+    background-repeat: no-repeat;
+    background-color: #000000;
+    padding: 5px; 100px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/*  ============== NAVIGATION ================ */
+nav {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* height: 55px; */
+}
+
+nav li{
+    display: inline-flex;
+    list-style-image: none;
+    align-items: stretch;
+    padding: 1em;
+    /* border: 1px solid red; */
+}
+
+nav li,
+.item2,
+.item3,
+.item4, 
+.item5{
+    flex: 1 auto 10%;
+}
+
+nav li.item1{
+    flex-basis: 12%;
+}
+nav li.item5{
+    flex-grow: 4;
+}
+
+nav li.item6{
+    flex-basis: 5%;
+}
+
+nav img.nav-cart{
+    /* margin: auto; */
+    max-width: 1000%;
+    max-height: 40px;
+}
+
+nav img.nav-logo{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 0px;
+    padding-left: 5px;
+}
+
+nav>li>a:hover{
+    background: #f4f4f4;
+    text-decoration: none;
+    border-bottom: 4px solid #9b9b9b;
+    padding: .5em 0px;
+}
+
+/* ============= FOOTER STYLES ============ */
+footer{
+    background-color: #8D8984;
+    padding: 2em;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #fff;
+    padding: 3px;
+}
+
+.footer-social{
+    font-size: 2em;
+    margin-left: auto;
+}
