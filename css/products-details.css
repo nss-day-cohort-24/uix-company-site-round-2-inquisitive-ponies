@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -36,9 +40,80 @@ img {
     border-radius: 10px;
 }
 
-.description {
-    /* padding-top: 5%; */
+nav ul{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+nav li{
+    display: block;
+    padding: 1em;
+    align-self: center;
+    margin: 0 0.5em;
+    /* border: 1px solid red; */
+}
+
+nav li.item1{
+    flex-basis: 12%;
+    padding-right: 1.5em;
+}
+
+nav li.item5{
+    flex-grow: 4;
+}
+
+nav li.item6{
+    flex-basis: 5%;
+    padding: 0px
+}
+
+nav img.nav-cart{
+    /* margin: auto; */
+    max-width: 100%;
+    max-height: 40px;
+}
+
+nav img.nav-logo{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+nav li a.programs{
+    text-decoration: none;
+    color: #bbcb48;
+}
+
+nav li a.about{
+    text-decoration: none;
+    color: #f09139;
+}
+
+nav li.textLinks a:hover{
+    background: #f4f4f4;
+    text-decoration: none;
+    border-bottom: 4px solid #9b9b9b;
+    padding: 1.25em .25em;
+}
+
+.banner{
+    background-color: #10B9D2;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+}
+
 
 .flex-item1 {
     border-bottom: 10px solid #f7ce06;
@@ -79,6 +154,47 @@ img {
     font-weight: 400;
     color: #8D8984;
 } 
+
+footer{
+    background-color: #8D8984;
+    border-top: #10B9D2 solid 10px;
+    padding: 2em;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    line-height: initial;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-social{
+    font-size: 2em;
+    margin-left: auto;
+    float: right;
+}
 
 #center {
     width: 100%;

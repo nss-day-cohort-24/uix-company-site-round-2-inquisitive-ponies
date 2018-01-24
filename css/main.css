@@ -75,14 +75,9 @@ nav ul{
     justify-content: flex-start;
     align-content: flex-start;
     flex-wrap: nowrap;
-<<<<<<< HEAD
-    align-items: center;
-    height: 60px;
-=======
     list-style-type: none;
     padding: 0;
     margin: 0;
->>>>>>> master
 }
 nav li{
     display: block;
