@@ -7,51 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Montserrat:300,400,500|Oswald" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img id="logo">
-        <h1>You Got This!</h1>
         <nav>
-            <ul>
-                    <li class="item1"><a href="index.html"><img class="nav-logo" src="images/logo1.PNG" alt="You Got This! logo is text in bright blue, yellow, pink"></a><!--company logo--></li>
-                    <li class="item2"><a href="products.html">Programs</a></li>
-                    <li class="item3"><a href="#">Blog</a></li>
-                    <li class="item4"><a href="about.html">About</a></li>
-                    <li class="item5"><a href="contact.html">Contact Us</a></li>
-                    <li class="item6"><a href="cart.html"><img alt="white shopping cart image in a blue circle" class="nav-cart" src="images/cart-icon.png"><!--shopping cart glyph--></a></li>
-            </ul>
+            <li class="item1 textLinks"><a href="index.html"><img class="nav-logo" src="images/YGT_web-wordmark.png" alt="You Got This! logo is text in bright blue, yellow, pink"></a><!--company logo--></li>
+            <li class="item2 textLinks"><a href="products.html">Programs</a></li>
+            <li class="item3 textLinks"><a href="#">Blog</a></li>
+            <li class="item4 textLinks"><a href="about.html">About</a></li>
+            <li class="item5 textLinks"><a href="contact.html">Contact Us</a></li>
+            <li class="item6 textLinks"><a href="cart.html"><img alt="white shopping cart image in a blue circle" class="nav-cart" src="images/cart-icon.png"><!--shopping cart glyph--></a></li>
         </nav>
     </header>
     <div id="contact">
         <main>
-            <img>
-            <form class="getInTouch" method = "post">
-                <h2 class="get-in-touch">Get in touch! We look forward to helping you find the best program for your child.</h2>
-                <section class="flex-container-contact">
-                    <div class="field-group-1">
-                        <div class="field-box"></div>                       
-                    </div>
-                    <div class="field-group-2">    
-                        <label for="tell-us-about">Tell us a little about your child and his or her interests:</label>
-                        <textarea id="tell-us-about" name="user_tell-us-about"></textarea>
-                    </div>
-                </section>
-                <button></button>
+            <form id="contactForm" action="/" method="post">
+                <h3 id="callToAction"></h3>
+                <table >
+                    <tr>
+                        <span id="formName"></span>
+                        <input placeholder="Please Enter Your Name" type="text" tabindex="1" required>
+                    </tr>
+                    <tr>
+                        <span id="formTele"></span>
+                        <input placeholder="Please Enter Your Telephone Number" type="tel" tabindex="2" required>
+                    </tr>
+                    <tr>
+                        <span id = "formEmail"></span>
+                        <input placeholder="Please Enter Your Email Address" type="url" tabindex="3" required>
+                    </tr>
+                    <tr>
+                        <span id="formMessage"></span>
+                        <textarea placeholder="Tell Us A Little About Your Child" rows="6" cols="50" type="text" tabindex="5" required></textarea>
+                    </tr>
+                    <button name="submit" type="submit" id="contact-submit"><img src="images/YGT_web-wordmark.png" id="submitIcon"></button>
+                </table>
             </form>
-                <section id="connect">
-                    <h3><em>Connect with us on social media to find out more:</em></h3>
-                        <a href="https://www.facebook.com/YouGotThis" target="_blank">  <img class="social-media-buttons" src="images/facebook.png" alt="facebook logo"></a>
-                        <a href="https://twitter.com/yougotthisbro?lang=en" target="_blank">  <img class="social-media-buttons" src="images/twitter.png" alt="twitter logo"></a>
-                        <a href="https://www.instagram.com/you_got_this/?hl=en" target="_blank">  <img class="social-media-buttons" src="images/instagram.png" alt="instagram logo"></a>
-                        <h3><em>Email us at <a href="mailto:yougotthis.com">YouGotThis@YouGotThis.com</a></em></h3>
-                </section> 
+                <section id="connect"></section> 
         </main>
     </div>
     <footer>
-        <p>&copy; OpenIDEO</p>
+        <p>&copy; Inquisitive Ponies — a subsidiary of OpenIdeo</p>
     </footer>
-    <script src="yougotthis.js"></script>
+    <script src="../js/contact.js"></script>
 </body>
 </html>
                 
