@@ -129,7 +129,7 @@ nav li.textLinks a:hover{
 
 /* ============= SHOPPING CART STYLES ============ */
 
-.shopping-cart {
+.cart {
     width: 750px;
     height: 423px;
     margin: 80px auto;
@@ -137,6 +137,12 @@ nav li.textLinks a:hover{
     border-radius: 2px;
     display: flex;
     flex-direction: column;
+  }
+
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
   }
 
 /* ============= FOOTER STYLES ============ */
