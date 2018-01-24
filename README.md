@@ -1,3 +1,27 @@
+
+=========== INQUISITIVE PONIES updated work ==========
+CHALLENGE STATEMENT: How might we offer pre-high school aged children the opportunity
+for social interaction & character education in a nurturing enviornment with 
+engaging and fun acitivites while minimizing negative peer interactions. 
+
+Ultimate Impact: Increase positive socialisation in pre-high school children
+through programs led by professionals with the agenda of character education training. 
+
+Persona 1 (user of product) Child
+-Elementary to middle school aged
+- Maybe experienced negative peer interaction
+-Looking for ways to gain more social experience 
+
+Persona 2 (customer) Parent
+- Middle class
+- Can afford the cost of camp
+-Wants to be involved/improve kids life and socialisation
+-Offers help or advice when asked, but may not offer guidance otherwise.
+
+YGT! Website is interfaced to the parent who can see the values of our company and also
+the programs we offer. They can choose from a list of programs at different price tiers
+depending on their and the childs needs. 
+
 ============= STORM CROWS original work=============
 Persona: 
 Middle school kids and parents
