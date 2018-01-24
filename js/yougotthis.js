@@ -4,7 +4,7 @@ var heroImage0 = document.getElementById('heroImage0');
 
 var heroes = [ 
     `<img src="../images/Band.jpg">`,
-    `<img src="../images/STEM.jpg">`,
+    `<img src="../images/hero_stem.jpg">`,
     `<img src="../images/Archery.jpg">`
     ]
 

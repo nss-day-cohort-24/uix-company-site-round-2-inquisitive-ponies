@@ -26,8 +26,7 @@ h6 {
 }
 
 /* ============= FLEX CONTAINERS ============ */
-nav,
-footer{
+nav,{
     display: flex;
 }
 
@@ -54,7 +53,6 @@ nav {
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-items: center;
-    /* height: 55px; */
 }
 
 nav li{
@@ -62,15 +60,14 @@ nav li{
     list-style-image: none;
     align-items: stretch;
     padding: 1em;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 nav li,
 .item2,
 .item3,
-.item4, 
-.item5{
-    flex: 1 auto 10%;
+.item4{
+    flex: 1 0 10%;
 }
 
 nav li.item1{
@@ -105,9 +102,7 @@ nav>li>a:hover{
 }
 
 /* ============= INDEX STYLES ============ */
-main{
-    margin-top: -35px;
-}
+
 
 
 /* ============= FOOTER STYLES ============ */
@@ -116,7 +111,8 @@ footer{
     padding: 2em;
     margin-top: 10px;
     font-family: 'Oswald', sans-serif;
-    font-size: 2em;
+    font-size: 1.3em;
+    line-height: initial;
     font-weight: 500;
     color: #fff;
     text-transform: uppercase;
@@ -127,12 +123,26 @@ footer a {
     padding: 3px;
 }
 
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 .footer-social{
     font-size: 2em;
     margin-left: auto;
+    float: right;
 }
 
 /* ============= ABOUT ============ */
+
+
 /* ============= LANDING ============ */
 #aboutLanding {
     height: calc(100vh - 60px);
