@@ -1,3 +1,29 @@
+/* ============= MAIN BODY STYLES ============ */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #8D8984;
+}
 
 /* ============= FLEX CONTAINERS ============ */
 nav,
@@ -28,13 +54,14 @@ nav {
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-items: center;
-    height: 55px;
+    /* height: 55px; */
 }
 
-nav li {
+nav li{
     display: inline-flex;
     list-style-image: none;
-    /* padding: .85em; */
+    align-items: stretch;
+    padding: 1em;
     /* border: 1px solid red; */
 }
 
@@ -44,8 +71,6 @@ nav li,
 .item4, 
 .item5{
     flex: 1 auto 10%;
-    padding: 1em;
-    /* align-items: center; */
 }
 
 nav li.item1{
@@ -54,34 +79,30 @@ nav li.item1{
 }
 nav li.item5{
     flex-grow: 4;
-    /* align-items: center; */
 }
 
 nav li.item6{
     flex-basis: 5%;
-    /* align-self: flex-end;
-    padding-right: 0; */
-    /* padding-left: 10em; */
 }
 
 nav img.nav-cart{
-    margin: auto;
-    max-width: 100%;
+    /* margin: auto; */
+    max-width: 1000%;
     max-height: 40px;
 }
 
 nav img.nav-logo{
     max-width: 100%;
     max-height: 100%;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 5px;
 }
 
 nav>li>a:hover{
     background: #f4f4f4;
     text-decoration: none;
-    padding: 0.85em;
     border-bottom: 4px solid #9b9b9b;
+    padding: .5em 0px;
 }
 
 /* ============= FOOTER STYLES ============ */
@@ -89,7 +110,11 @@ footer{
     background-color: #8D8984;
     padding: 2em;
     margin-top: 10px;
-    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 footer a {
@@ -174,6 +199,3 @@ footer a {
     margin-top: 0;
     background-color: white;
     color: #4B8584
-}
-
-
