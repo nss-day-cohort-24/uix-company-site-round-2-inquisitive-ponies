@@ -77,6 +77,12 @@ nav>li>a:hover{
     padding: .5em 0px;
 }
 
+/* ============= INDEX STYLES ============ */
+main{
+    margin-top: -35px;
+}
+
+
 /* ============= FOOTER STYLES ============ */
 footer{
     background-color: #8D8984;
