@@ -229,12 +229,14 @@ footer a:hover{
     justify-content: center;
     align-items: center;
     top: 0;
+    position: absolute;
+    margin-top: 60px;
 }
 
 #aboutTeam {
     display:block;
-    position: absolute;
-    padding-top: 21em;
+    position: relative;
+    padding-top: 9em;
     color: white;
     font-size: 25px;
 
@@ -242,6 +244,7 @@ footer a:hover{
 
 #mission {
     display: block;
+    margin-top: 8em;
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
@@ -253,6 +256,7 @@ footer a:hover{
     color: white;
     text-align: center;
     padding-top: 25px;
+    position: relative;
 }
 
 
@@ -301,13 +305,15 @@ footer a:hover{
     top: 0;
 }
 
+#formDiv {
+    margin: auto;
+}
 #contactForm {
     display: flex;
     flex-flow: column;
     margin-bottom: 15em;
-    margin-top: 3%;
-    margin-left: 34%;
-    color: black;
+    margin-top: 5%;
+    color: #4B8584;
     background-color: rgba(255, 255, 255, .7);
     padding: 2em;
     border-radius: 10px;
@@ -329,5 +335,5 @@ footer a:hover{
 }
 
 #submitIcon {
-    height: 50px;
+    width:100%;
 }
