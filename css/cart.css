@@ -129,14 +129,103 @@ nav li.textLinks a:hover{
 
 /* ============= SHOPPING CART STYLES ============ */
 
-.shopping-cart {
+.cart {
     width: 750px;
-    height: 423px;
+    height: auto;
     margin: 80px auto;
     box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
     border-radius: 2px;
     display: flex;
     flex-direction: column;
+  }
+
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+
+  .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+  .delete-btn {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .delete-btn {
+    width: 50px;
+    height: 50px;
+    background: url(/images/remove_button.png) no-repeat center;
+    background-size: contain;
+  }
+
+  .quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+  }
+
+  .quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 1em;
+    color: #8D8984;
+    font-weight: 400;
+  }
+   
+  button[class*=btn] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .minus-btn img {
+    margin-bottom: 3px;
+  }
+
+  .plus-btn img {
+    margin-top: 2px;
+  }
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+
+  .total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #8D8984;
+    font-weight: 400;
+  }
+
+  /* ============= FORM STYLES ============ */
+
+  form {
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
   }
 
 /* ============= FOOTER STYLES ============ */
