@@ -50,6 +50,7 @@ nav li,
 
 nav li.item1{
     flex-basis: 12%;
+    max-height: 60px;
 }
 nav li.item5{
     flex-grow: 4;
@@ -117,12 +118,28 @@ footer a {
     top: 0;
 }
 
-#aboutLanding h1 {
+#aboutTeam {
+    display:block;
+    position: absolute;
+    padding-top: 19em;
+    color: white;
+    font-size: 25px;
 
 }
 
 #mission {
-    margin: 1em 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    min-width: 200px;
+    background-color: rgba(75, 133, 132, .8);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
 }
 
 
@@ -134,16 +151,29 @@ footer a {
 #badgesDiv img {
     max-width: 400px;
     max-height: 400px;
+    margin-top: 2em;
 }
 
-#badgesDiv, #infoDiv {
+.role {
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 5em;
+}
+
+#badgesDiv h3 {
+    font-size: 25px;
+    width: 100%;
+
+}
+
+#badgesDiv {
     display: inline-flex;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: flex-start; 
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0;
+    background-color: white;
+    color: #4B8584
 }
 
-#infoDiv img {
-    max-height: 50px;
-    max-width: 50px;
-}
 
