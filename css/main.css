@@ -51,6 +51,7 @@ nav{
     display: flex;
 }
 
+
 /* ============= HEADER STYLES ============ */
 header {
     justify-content: space-between;
@@ -75,14 +76,9 @@ nav ul{
     justify-content: flex-start;
     align-content: flex-start;
     flex-wrap: nowrap;
-<<<<<<< HEAD
-    align-items: center;
-    height: 60px;
-=======
     list-style-type: none;
     padding: 0;
     margin: 0;
->>>>>>> master
 }
 nav li{
     display: block;
@@ -148,7 +144,10 @@ nav li.textLinks a:hover{
 
 #hero{
     padding-top: 0;
-    display: flex;
+}
+
+.index-hero {
+    width: 100%;
 }
 
 .card{
@@ -177,13 +176,31 @@ nav li.textLinks a:hover{
     text-align: center;
 }
 
+.blog{
+    text-align: center;
+    background: #f5f6f7;
+    padding: 1em;
+    margin-bottom: 0px;
+}
+
+.row{
+    padding: 10px 1em;
+    margin: 0px;
+}
+
+.row img{
+    max-width: 45%;
+    margin: 1em;
+
+}
+
+
 
 /* ============= FOOTER STYLES ============ */
 footer{
     background-color: #8D8984;
     border-top: #10B9D2 solid 10px;
     padding: 2em;
-    margin-top: 10px;
     font-family: 'Oswald', sans-serif;
     font-size: 1.3em;
     line-height: initial;
