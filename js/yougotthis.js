@@ -1,21 +1,26 @@
-var heroImage0 = document.getElementById('heroImage0'); 
-var heroImage1 = document.getElementById('heroImage1');
-var heroImage2 = document.getElementById('heroImage2'); 
+var heroImage = document.getElementById('heroImage'); 
+// var heroImage1 = document.getElementById('heroImage1');
+// var heroImage2 = document.getElementById('heroImage2'); 
 
 var heroes = [ 
-    '<img src="Band.jpg>',
-    '<img src="STEM.jpg>',
-    '<img src="Archery.jpg>'
+    `<img src="../images/Band.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
+    `<img src="../images/hero_stem.jpg" style="display: flex; margin: auto; max-width: 100%;">`,
+    `<img src="../images/Archery.jpg" style="display: flex; margin: auto; max-width: 100%;">`
     ]
 
-for(i=0; i<heroes.length; i++){
-    switch(i){
-        case 0:
-            heroImage0.innerHTML = heroes[i];
-        case 1:
-            heroImage1.innerHTML = heroes[i];
-        case 2:
-            heroImage2.innerHTML = heroes[i];
-    }
+var random = Math.floor(Math.random() * Math.floor(heroes.length));
+console.log(random);
+      
+
+switch(random){
+    case 0:
+        heroImage.innerHTML = heroes[0];
+        break;
+    case 1:
+        heroImage.innerHTML = heroes[1];
+        break;
+    case 2:
+        heroImage.innerHTML = heroes[2];
+        break;
 }
 
