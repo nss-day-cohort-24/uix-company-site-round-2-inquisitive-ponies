@@ -1,3 +1,29 @@
+/* ============= MAIN BODY STYLES ============ */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #8D8984;
+}
 
 /* ============= FLEX CONTAINERS ============ */
 nav,
@@ -8,7 +34,8 @@ footer{
 /* ============= HEADER STYLES ============ */
 header {
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
+    height: 60px;
 }
 
 .banner{
@@ -88,7 +115,11 @@ footer{
     background-color: #8D8984;
     padding: 2em;
     margin-top: 10px;
-    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 footer a {
@@ -99,4 +130,50 @@ footer a {
 .footer-social{
     font-size: 2em;
     margin-left: auto;
+}
+
+/* ============= ABOUT ============ */
+/* ============= LANDING ============ */
+#aboutLanding {
+    height: calc(100vh - 60px);
+    width: 100%;
+    margin: auto;
+    background: url('../images/camp2.png');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+#aboutLanding h1 {
+
+}
+
+#mission {
+    margin: 1em 25em;
+}
+
+
+/* ============= CONTENT ============ */
+.flex-badge, .flex-info{
+    list-style-type: none;
+}
+
+#badgesDiv img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#badgesDiv, #infoDiv {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#infoDiv img {
+    max-height: 50px;
+    max-width: 50px;
 }
