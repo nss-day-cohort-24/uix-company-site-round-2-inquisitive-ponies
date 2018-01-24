@@ -36,7 +36,7 @@ var products = [
     description:'<div class="flex-item4"><h3>Outdoors!</h3>Rope climbing, zipline, hiking include some of the physical options for our Outdoors! program. We also offer nature appreciation oriented activites including plant identificaton and foraging.</div>',
     },
     {
-    image:'<div class="flex-item1"><img src="../images/stem.jpg"></div>',
+    image:'<div class="flex-item1"><img src="../images/science.jpg"></div>',
     description:'<div class="flex-item2"><h3>Science!</h3>Science is a great way to understand the world around us. Our science programs are the most educational of all the programs and are led by professionals in the field with alot of experience and passion to share. </div>',
     },
     {
