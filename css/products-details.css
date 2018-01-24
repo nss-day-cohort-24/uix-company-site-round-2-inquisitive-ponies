@@ -1,24 +1,35 @@
 
 body {
-    background: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
 }
 
 h1 {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 3em;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
+    font-size: 4em;
+    font-weight: 300;
 }
 h3 {
-    letter-spacing: 0.5em;
-    color: white;
+    /* letter-spacing: 0.5em;
     font-size: 2em;
     margin-top: 0;
     text-align: center;
     margin-bottom: 0;
     padding-right: 10px;
+    color: black; */
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #8D8984;
+    padding-top: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -32,44 +43,47 @@ img {
 .flex-item1 {
     border-bottom: 10px solid #f7ce06;
     background: #79CCC9;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 0;
 }
 
 .flex-item2 {
     text-align: center;
-    font-size: 1.5em;
     width: 50%;
     background: #79CCC9;
     border-radius: 5px;
     margin-left: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+
 }
 
 .flex-item3 {
     text-align: center;
     border-bottom: 10px solid #f7ce06;
     background: #79CCC9;
+    border-radius: 10px;
 }
 
 .flex-item4 {
-    font-size: 1.5em;
     width: 50%;
     background: #F3B1B2;
     border-radius: 5px;
     margin-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8D8984;
+} 
 
 #center {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 15%;
-    border: 20px outset black;
 }
 
 #product1 {
@@ -78,6 +92,7 @@ img {
     align-items: center;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 #product2 {
